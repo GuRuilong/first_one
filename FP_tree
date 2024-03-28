@@ -256,3 +256,27 @@ def mineTree(inTree, headerTable, minSup, preFix, freqItemList):
         print('\n\n\n')
 
 print('hello world')
+
+
+from collections import OrderedDict, defaultdict
+def loadSimpDat():
+    '''
+    # 生成原始数据集
+    '''
+    simpData = [
+        ['A', 'B', 'C', 'E', 'F','O'],
+        ['A', 'B', 'C', 'E', 'F','O'],
+        ['A', 'B', 'C', 'E', 'F','O'],
+        ['A', 'C', 'G'],
+        ['E','I'],
+        ['A', 'C', 'D', 'E', 'G'],
+        ['A', 'C', 'D', 'E', 'G'],
+        ['A', 'C', 'E', 'G', 'L'],
+        ['E', 'J'],
+        ['A', 'B', 'C', 'E', 'F', 'P'],
+        ['A', 'C', 'D'],
+        ['A', 'C', 'E', 'G', 'M'],
+        ['A', 'C', 'E', 'G', 'N'],
+        ['A', 'C', 'B'],
+        ['A', 'B', 'D']]
+    return simpData
